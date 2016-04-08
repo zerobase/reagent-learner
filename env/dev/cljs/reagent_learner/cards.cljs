@@ -37,6 +37,9 @@
 (defcard-rg shared-state
   [core/shared-state])
 
+(defcard-rg bmi-component
+  [core/bmi-component])
+
 (reagent/render [:div] (.getElementById js/document "app"))
 
 ;; remember to run 'lein figwheel devcards' and then browse to
